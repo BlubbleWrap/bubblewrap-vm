@@ -25,7 +25,7 @@ class TurboWarpBlocks {
     getInfo () {
         return {
             id: 'tw',
-            name: 'TurboWarp',
+            name: 'BubbleWrap',
             color1: '#ff4c4c',
             color2: '#e64444',
             color3: '#c73a3a',
