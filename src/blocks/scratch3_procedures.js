@@ -117,12 +117,12 @@ class Scratch3ProcedureBlocks {
     argumentReporterBoolean (args, util) {
         const value = util.getParam(args.VALUE);
         if (value === null) {
-            // tw: implement is compiled? and is turbowarp?
+            // tw: implement is compiled? and is bubblewrap?
             const lowercaseValue = String(args.VALUE).toLowerCase();
             if (util.target.runtime.compilerOptions.enabled && lowercaseValue === 'is compiled?') {
                 return true;
             }
-            if (lowercaseValue === 'is turbowarp?') {
+            if (lowercaseValue === 'is bubblewrap?') {
                 return true;
             }
             // When the parameter is not found in the most recent procedure
