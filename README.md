@@ -1,6 +1,6 @@
 ## BlubbleWrap/scratch-vm
 
-Modified [TurboWarp](https://turbowarp.org/) VM with a JIT compiler and more features.
+Modified [TurboWarp](https://turbowarp.org/) VM.
 
 ## License
 
